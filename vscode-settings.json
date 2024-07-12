@@ -1,0 +1,82 @@
+{
+  "[javascript]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.formatOnSave": true,
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode",
+    "editor.suggestSelection": "recentlyUsed",
+    "editor.suggest.showKeywords": false
+  },
+  "[python]": {
+    "editor.defaultFormatter": "ms-python.black-formatter",
+    "editor.suggestSelection": "recentlyUsed",
+    "editor.suggest.showKeywords": false
+  },
+  "files.exclude": {},
+  "window.commandCenter": true,
+  "telemetry.telemetryLevel": "off",
+  "workbench.colorTheme": "Tokyo Night",
+  "explorer.confirmDragAndDrop": false,
+  "editor.fontFamily": "'Dank Mono', Menlo, Monaco, 'Courier New', monospace",
+  "editor.fontLigatures": true,
+  "editor.fontSize": 16,
+  "editor.codeActionsOnSave": {
+    "source.organizeImports": "explicit"
+  },
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "extensions.ignoreRecommendations": false,
+  "settingsSync.ignoredExtensions": [],
+  "terminal.integrated.fontSize": 15,
+  "settingsSync.ignoredSettings": [],
+  "explorer.compactFolders": false,
+  "editor.cursorStyle": "block-outline",
+  "editor.tabCompletion": "on",
+  //"editor.snippetSuggestions": "inline",
+  "git.autofetch": true,
+  "prettier.printWidth": 65,
+  "editor.formatOnSave": true,
+  "terminal.integrated.env.osx": {
+    "FIG_NEW_SESSION": "1"
+  },
+  "editor.accessibilitySupport": "off",
+  "remote.SSH.remotePlatform": {
+    "imp-dance.haakon.dev-2022.draft---wonderful-sky.csb": "linux"
+  },
+  "workbench.iconTheme": "vscode-icons",
+  "editor.stickyScroll.enabled": true,
+  "vsicons.dontShowNewVersionMessage": true,
+  "workbench.startupEditor": "none",
+  "workbench.sideBar.location": "right",
+  "editor.inlineSuggest.enabled": true,
+  "editor.quickSuggestions": {
+    "strings": true
+  },
+  "tailwindCSS.includeLanguages": {
+    "typescript": "javascript",
+    "typescriptreact": "javascript"
+  },
+  "tailwindCSS.experimental.classRegex": [
+    ["Classes \\=([^;]*);", "'([^']*)'"],
+    ["Classes \\=([^;]*);", "\"([^\"]*)\""],
+    ["Classes \\=([^;]*);", "\\`([^\\`]*)\\`"],
+    "tw`([^`]*)",
+    "tw\\.[^`]+`([^`]*)`",
+    "tw\\(.*?\\).*?`([^`]*)"
+  ],
+  "mdx.experimentalLanguageServer": true,
+  "github.copilot.enable": {
+    "*": true,
+    "plaintext": false,
+    "markdown": false,
+    "scminput": false
+  },
+  "prisma.showPrismaDataPlatformNotification": false,
+  "github.copilot.editor.enableAutoCompletions": true
+}
